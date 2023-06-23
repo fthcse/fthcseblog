@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>html5海贼王单页视差滚动特效 - 周末简设</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main.css">
+<link href="css/datouwang.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/munbers.js"></script>
+</head>
+<body>
+<div class="top">
+	<div class="top_main center">	
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.10"><img class=" top_img02" src="images/top_img03.png"></li>
+			<li class="layer" data-depth="0.40"><img class=" top_img04" src="images/top_img04.png"></li>
+			<li class="layer" data-depth="0.60"><img class=" top_img05" src="images/top_img05.png"></li>
+			<li class="layer" data-depth="0.90"><img class=" top_img06" src="images/top_img06.png"></li>
+			<li class="layer" data-depth="0.20"><img class=" top_img07" src="images/top_img04.png"></li>
+			<li class="layer" data-depth="0.60"><img class=" top_img08" src="images/top_img05.png"></li>
+			<li class="layer" data-depth="0.40"><img class=" top_img09" src="images/top_img06.png"></li>
+			<li class="layer" data-depth="0.10"><img class=" top_img10" src="images/top_img05.png"></li>
+			<li class="layer" data-depth="0.60"><img class=" top_img11" src="images/top_img06.png"></li>
+			<li class="layer" data-depth="0.50"><img class=" top_img12" src="images/top_img04.png"></li>
+			<li class="layer" data-depth="0.40"><img class=" top_img13" src="images/top_img04.png"></li>
+			<li class="layer" data-depth="0.20"><img class=" top_img14" src="images/top_img06.png"></li>
+			<li class="layer" data-depth="0.10"><img class=" top_img15" src="images/top_img05.png"></li>
+		</ul>
+		<img class="lx01" src="images/lx01.png">
+		<img class="lx02" src="images/lx02.png">
+		<img class="lx03" src="images/lx03.png">
+		<img class="lx04" src="images/lx02.png">
+		<img class="lx05" src="images/lx03.png">
+	</div><!-- top_main end -->
+</div><!-- top end -->
+<div class="section1">
+	<div class="sec_c1">
+		<h1>关于海贼王</h1>
+		<hr style="border:3 double #987cb9; margin-bottom:40px; box-shadow:0 0 5px yellow" width="100%" color=yellow SIZE=3;>
+		<p>航海王（日本尾田荣一郎创作的漫画）</p>
+		<p>拥有财富、名声、权力，这世界上的一切的男人 “海贼王”哥尔·D·罗杰，在被行刑受死之前说了一句话，让全世界的人都涌向了大海。“想要我的宝藏吗？如果想要的话，那就到海上去找吧，我全部都放在那里。”，世界开始迎接“大海贼时代”的来临。</p>
+		<p>时值“大海贼时代”，为了寻找传说中海贼王罗杰所留下的大秘宝“ONE PIECE”，无数海贼扬起旗帜，互相争斗。一个叫路飞的少年为了与因救他而断臂的香克斯的约定而出海，在旅途中不断寻找志同道合的伙伴，开始了以成为海贼王为目标的伟大冒险旅程</p>
+	</div>
+</div>
+<!-- <div class="section2">
+	<div class="sec_c2">
+		<h1>人生中有些事你不竭尽所能去做，你永远不知道你自己有多出色 。</h1>
+		<p>by.海贼王</p>
+	</div>
+</div> --><!-- section2 end  -->
+<div class="section3">
+	<div id="carousel_container" class="carousel slide full_height">
+		<div class="carousel-inner full_height">
+			<div id="m_01" class="page item active" progress="150">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【船长】“草帽”蒙奇·D·路飞（蒙其·D·鲁夫）（モンキーD·ルフィ/Monkey D. Luffy）</p>
+							<p>年龄：17岁→19岁（漫画598话开始的“两年后”）</p>
+							<p>生日：5月5日（日本男孩节）</p>
+							<p>星座：金牛座</p>
+							<p>身高：172cm，174cm（两年后）</p>
+							<p>故乡：东海风车村</p>
+							<p>身份：草帽海贼团船长/草帽团三主力之一</p>
+							<p>喜欢的食物：肉</p>
+							<p>爱好：喜欢探险，感兴趣于新奇怪异的事物</p>
+							<p>身世：革命家蒙奇·D·龙的儿子，海军中将蒙奇·D·卡普的孙子，波特卡斯·D·艾斯及萨博的义弟。</p>
+							<p>恶魔果实：超人系橡胶果实</p>
+							<p>霸气：霸王色霸气、武装色霸气、见闻色霸气</p>
+							<p>悬赏：3千万（可可亚西村事件）→1亿（阿拉巴斯坦事件）→3亿（司法岛事件)→4亿（顶上战争后）</p>
+							<p>声优：田中真弓</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div><!-- lufi end -->
+			<div id="m_02" class="page item"  progress="300">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【战斗员】“海贼猎人”罗罗诺亚·索隆（罗诺亚·卓洛/罗罗诺亚·佐罗）(ロロノア·ゾロ/Roronoa Zoro)</p>
+							<p>年龄：19岁→21岁（漫画598话开始的“两年后”）</p>
+							<p>生日：11月11日</p>
+							<p>星座：天蝎座</p>
+							<p>身高：178cm，181cm（两年后）</p>
+							<p>故乡：东海 霜月村</p>
+							<p>身份：草帽海贼团剑士/草帽团三主力之一/海贼猎人</p>
+							<p>喜欢的食物：白米，海兽的肉，适合下酒的食物</p>
+							<p>爱好：睡觉、修炼、喝酒。</p>
+							<p>缺点：路痴</p>
+							<p>霸气：武装色霸气、见闻色霸气</p>
+							<p>武器：和道一文字（古伊娜的刀）、雪走（在司法岛上被吃了锈锈果实的上校锈断了）、三代鬼彻、黑刀秋水（与武士龙马战斗后得到）</p>
+							<p>悬赏：6千万（阿拉巴斯坦事件）→1亿2000万（司法岛事件）</p>
+							<p>声优：中井和哉</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_03" class="page item"  progress="450">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【航海士】“小贼猫”娜美（奈美）（ナミ/Nami）</p>
+							<p>年龄：18岁→20岁（漫画598话开始的“两年后”）</p>
+							<p>生日：7月3日</p>
+							<p>星座：巨蟹座</p>
+							<p>身高：169cm，170cm（两年后）</p>
+							<p>故乡：东海可可亚西村</p>
+							<p>身份：草帽海贼团航海士</p>
+							<p>喜欢的食物：都不错，但最喜欢橘子</p>
+							<p>爱好：钱，橘子，风车，地图</p>
+							<p>特长：绘制地图，观测天气，偷东西</p>
+							<p>武器：三截式长棍→天候棒→完全版天候棒（由乌索普所发明）→魔法天候棒（由气象岛学者改良）</p>
+							<p>悬赏：1600万（司法岛事件）</p>
+							<p>声优：冈村明美</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_04" class="page item"  progress="600">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【狙击手】乌索普（骗人布/乌索布）（ウソップ/Usopp）</p>
+							<p>年龄：17岁→19岁 （漫画598话开始的“两年后”）</p>
+							<p>生日：4月1日</p>
+							<p>星座：白羊座</p>
+							<p>身高：174cm,176cm(两年后)</p>
+							<p>故乡：东海 西罗普村</p>
+							<p>身份：乌索普海贼团船长→草帽海贼团狙击手</p>
+							<p>喜欢的食物：秋岛的秋刀鱼，旺季的鱼类</p>
+							<p>爱好：发明各种东西、制造武器</p>
+							<p>霸气：见闻色霸气</p>
+							<p>绰号：狙击王、长鼻子</p>
+							<p>武器：弹弓、橡皮筋、铁锤、大独角仙（巨型弹弓）、“狙击王”的面具 、黒兜（鱼人岛龙宫国战斗使用</p>
+							<p>悬赏：3000万（以“狙击王”的身份在司法岛事件中）</p>
+							<p>声优：山口胜平</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_05" class="page item"  progress="750">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【厨师】“黑足”山治（香吉士/香吉/山智）（サンジ/Sanji）</p>
+							<p>年龄：19岁→21岁（两年后）</p>
+							<p>生日：3月2日 （TV版为3月4日）</p>
+							<p>星座：双鱼座</p>
+							<p>身高：177cm，180cm(两年后)</p>
+							<p>故乡：北海</p>
+							<p>身份：草帽海贼团厨师/草帽团三主力之一</p>
+							<p>喜欢的食物：辣味海鲜面，适合红茶的食物</p>
+							<p>爱好：下厨，抽烟，浪漫幻想</p>
+							<p>能力：脚技、刀法、烹饪、月步</p>
+							<p>霸气：见闻色霸气、武装色霸气</p>
+							<p>绰号：白痴卷眉、厨子、色情厨子、鼻血厨师、海贼A（索隆所取），圈圈眉，褶子靓卷眉，好色河童，7号（在两年后肥皂泡群岛索隆叫的 指到集中地点的先后顺序，索隆取的），黑足</p>
+							<p>悬赏：7700万（司法岛事件）</p>
+							<p>声优：平田广明/大谷育江（小时候）</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_06"  class="page item"  progress="900">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【船医】“爱吃棉花糖的驯鹿”托尼托尼·乔巴（多尼多尼·乔巴）（トニートニーチョッパー/Tony Tony Chopper）</p>
+							<p>年龄：15岁→17岁（漫画598话开始的“两年后”）</p>
+							<p>生日：12月24日</p>
+							<p>星座：摩羯座</p>
+							<p>身高：因身体变化而变化</p>
+							<p>故乡：伟大航路磁鼓王国（路飞赶走瓦波尔国王后改名樱花王国）</p>
+							<p>身份：草帽海贼团船长/草帽团三主力之一</p>
+							<p>身份：草帽海贼团船医</p>
+							<p>喜欢的食物：棉花糖，巧克力，所有甜的食物
+绰号：蓝鼻子的怪物，喜欢棉花糖的宠物，怪物
+恶魔果实：动物系人人果实</p>
+							<p>能力：8段变形，现能控制暴走形态需食用蓝波球</p>
+							<p>悬赏：50贝利（司法岛事件）</p>
+							<p>声优：大谷育江</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_07" class="page item"  progress="1050">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【考古学家】“恶魔之子”妮可·罗宾（尼可·鲁宾）（ニコ·ロビン/Nico Robin）</p>
+							<p>年龄：28岁→30岁 （漫画598话开始的“两年后”）</p>
+							<p>生日：2月6日</p>
+							<p>星座：水瓶座</p>
+							<p>身高：180cm</p>
+							<p>故乡：西海．考古之岛奥哈拉</p>
+							<p>身份：草帽海贼团考古学家</p>
+							<p>喜欢的食物：三明治，不太甜的蛋糕，适合咖啡的食物</p>
+							<p>恶魔果实：超人系花花果实</p>
+							<p>悬赏：7900万贝利（奥哈拉事件）→8000万贝利（司法岛事件）</p>
+							<p>声优：山口由里子</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_08" class="page item"  progress="1200">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【船匠】“改造人（铁人）”弗兰奇（福兰奇/佛朗基，原名卡迪·佛兰姆）（フランキー/Franky）</p>
+							<p>年龄：34岁→36岁（漫画598话开始的“两年后”）</p>
+							<p>生日：3月9日</p>
+							<p>星座：双鱼座</p>
+							<p>身高：226（改造前），240cm（改造后）</p>
+							<p>故乡：伟大航路·七水之都water seven</p>
+							<p>身份：草帽海贼团船匠</p>
+							<p>喜欢的食物：汉堡包，炸薯条，搭配可乐的食物</p>
+							<p>绰号：人造人，变态</p>
+							<p>武器：除了后背外浑身都是武器（因为摸不到后背，两年后后背也改造了）</p>
+							<p>悬赏：4400万贝利（司法岛事件）</p>
+							<p>声优：矢尾一树/野田顺子（小时候）</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+			<div id="m_09" class="page item"  progress="1350">
+				<div id="main">
+					<div id="splash">
+						<div class="container splash-container">
+							<p>【音乐家】“鼻歌”&“灵魂之王”布鲁克（ブルック/Brook）</p>
+							<p>年龄：88岁(50年前38岁) 40岁时战死，一年后复活。(尾田在SBS的回答是88岁理由同第一句)</p>→90岁（漫画598话开始的“两年后”）
+							<p>生日：4月3日</p>
+							<p>星座：白羊座</p>
+							<p>身高：266CM(帽子约20公分)</p>
+							<p>体重：58Kg</p>
+							<p>故乡：西海</p>
+							<p>身份：草帽海贼团音乐家/剑士</p>
+							<p>爱好：演奏，喝红茶，牛奶，说骷髅冷笑话</p>
+							<p>特长：乐器、剑术</p>
+							<p>恶魔果实：超人系黄泉果实</p>
+							<p>绰号：灵魂之王，鼻歌</p>
+							<p>武器：丧魂之剑（拐杖）</p>
+							<p>悬赏：3300万贝利（50年前）</p>
+							<p>声优：长岛雄一</p>
+						</div>
+					</div><!-- splash end -->
+				</div><!-- main end -->
+			</div>
+		</div>
+	</div>
+	<div class="sec3_footer" >
+	    <div id="navbar">
+			<div id="dash" ></div>
+			<div id="progress"></div>
+			<div id="navbtns" class="container" >
+				<div class="navbtn">
+					<a href="javascript:switchPage(0)">
+						<img src="images/c_01.png">
+						<div><p style="line-height:20px; color:#fff;">【船长】<br/>蒙奇·D·路飞</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(1)">
+						<img src="images/c_02.png">
+						<div><p style="line-height:20px; color:#fff;">【战斗员】<br/>罗罗诺亚·索隆</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(2)">
+						<img src="images/c_03.png">
+						<div><p style="line-height:20px; color:#fff;">【航海士】<br/>娜美</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(3)">
+						<img src="images/c_04.png">
+						<div><p style="line-height:20px; color:#fff;">【狙击手】<br/>乌索普</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(4)">
+						<img src="images/c_05.png">
+						<div><p style="line-height:20px; color:#fff;">【厨师】<br/>山治</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(5)">
+						<img src="images/c_06.png">
+						<div><p style="line-height:20px; color:#fff;">【船医】<br/>托尼托尼·乔巴</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(6)">
+						<img src="images/c_07.png">
+						<div><p style="line-height:20px; color:#fff;">【考古学家】<br/>妮可·罗宾</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(7)">
+						<img src="images/c_08.png">
+						<div><p style="line-height:20px; color:#fff;">【船匠】<br/>弗兰奇</p></div>
+					</a>
+				</div>
+				<div class="navbtn">
+					<a href="javascript:switchPage(8)">
+						<img src="images/c_09.png">
+						<div><p style="line-height:20px; color:#fff;">【音乐家】<br/>布鲁克</p></div>
+					</a>
+				</div>
+			</div>
+	    </div><!-- navbar end -->
+	</div><!-- sec3_footer end -->
+</div><!-- section3 end -->
+
+<script src="js/parallax.min.js"></script> 
+<script>
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+</script>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+<p>来源：<a href="http://youtiy.com/" target="_blank">周末简设</a></p>
+</div>
+</body>
+</html>
+
